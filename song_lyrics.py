@@ -12,7 +12,19 @@ lyric on one single line using print.
 '''
 
 def main():
-    # YOUR CODE HERE
+    
+    w1=love
+    w2=never 
+    w3=knew 
+    w4=what 
+    w5=I
+    w6=was
+    w7=missin
+    w8=but 
+    w9=I 
+    ww1=knew
+
+    print(w1+w2+w3+w4+w5+w6+w7+w8+w9+ww1)
 
 
 if __name__ == '__main__':
