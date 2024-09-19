@@ -20,14 +20,13 @@ How long until your alarm expires? 4
 Your alarm will expire at 3.
 '''
 
-def main():
-    cuurent_time=11
-    alarm_expiration=51
-    expire=(11+(51%24))
 
-    print(f"What time is it?" + current_time)
-    print(f"How long until your alarm expires?"+ alarm_expiration)
-    print(f"Your alarm will expire at "+ expire)
+def main():
+    time=int(input("What time is it now (in hours)\n"))
+    expire=int(input("How long until your alarm expires (in hours)\n"))
+    alarm=(time+expire)%24
+    print("Your alarm will expire at")
+    print(alarm)
 
 if __name__ == '__main__':   
     main()
